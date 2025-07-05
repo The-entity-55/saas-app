@@ -24,6 +24,7 @@ const Navbar = () => {
                     </SignInButton>
                 </SignedOut>
                 <SignedIn>
+                    <Link href="/profile" className="btn-profile">Profile</Link>
                     <UserButton />
                 </SignedIn>
             </div>
